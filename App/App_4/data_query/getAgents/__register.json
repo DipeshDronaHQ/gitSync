@@ -1,0 +1,58 @@
+{
+    "api_id": 1,
+    "api_name": "variable_RG9aY4FMzu6RsCiAa1742957067121",
+    "cat_id": "__REPLACE_CAT_ID_100001___",
+    "cat_name": "__REPLACE_CAT_NAME_100001___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_100022___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_100022___",
+    "cat_icon_url": "./Images/dblogos/mysql.png",
+    "method": "db_query",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "db_query",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "autoTransform": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "scheme_type": "db_connector",
+    "account_id": "account_56298470_1739281742393",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "secureResponse": false,
+    "rawResponse": [
+        {
+            "AGENT_CODE": "A001",
+            "AGENT_NAME": "Sureshh",
+            "WORKING_AREA": "Test",
+            "COMMISSION": "0.15",
+            "PHONE_NO": "8304567890",
+            "COUNTRY": "India"
+        }
+    ],
+    "processedResp": [
+        {
+            "AGENT_CODE": "A001",
+            "AGENT_NAME": "Sureshh",
+            "WORKING_AREA": "Test",
+            "COMMISSION": "0.15",
+            "PHONE_NO": "8304567890",
+            "COUNTRY": "India"
+        }
+    ],
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "createdVia": "variable",
+    "cat_type": "mysql"
+}

@@ -1,0 +1,19 @@
+{
+    "HEADERS": {
+        "access_control_allow_origin": "*",
+        "access_control_expose_headers": "failure-message, failure-code, Content-Type",
+        "connection": "close",
+        "content_encoding": "gzip",
+        "content_type": "application/json; charset=utf-8",
+        "date": "Wed, 26 Mar 2025 02",
+        "failure_code": "",
+        "failure_message": "",
+        "transfer_encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "x_powered_by": "Express"
+    },
+    "RESPONSE_CODE": 200,
+    "RESPONSE_MESSAGE": "success",
+    "FAILURE_CODE": "",
+    "FAILURE_MESSAGE": ""
+}

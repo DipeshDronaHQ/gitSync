@@ -1,0 +1,14 @@
+{
+    "sub_cat_id": 100022,
+    "sub_catName": "variable_RG9aY4FMzu6RsCiAa1742957067121",
+    "sub_catIcon": "./Images/dblogos/mysql.png",
+    "sub_cat_created_on": "2025-03-26T02:44:57.000Z",
+    "sub_cat_modify_on": "2025-03-26T02:45:53.000Z",
+    "sub_cat_format_id": "4e030bf9-09ec-11f0-a5eb-0242ac120004",
+    "sub_cat_created_by": "",
+    "sub_cat_method": "DB_QUERY",
+    "sub_cat_is_public": false,
+    "plugin_id": 4,
+    "isSubCatInstalled": false,
+    "isSubCatEditable": true
+}

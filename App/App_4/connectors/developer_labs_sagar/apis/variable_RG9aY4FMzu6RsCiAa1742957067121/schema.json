@@ -1,0 +1,58 @@
+{
+    "category_id": 100001,
+    "channel_id": 2,
+    "sub_category_id": 100022,
+    "bindable": true,
+    "display_name": "getAgents",
+    "failure": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "success": false
+    },
+    "failureCondition": [],
+    "name": "variable_RG9aY4FMzu6RsCiAa1742957067121",
+    "plugin_id": 4,
+    "preselectfields": [],
+    "preselectvariables": [],
+    "proxy": false,
+    "request": {
+        "method": "DB_QUERY",
+        "body": {
+            "raw": "SELECT * FROM agents limit 100 offset 1;",
+            "variables": [],
+            "mode": "db_query",
+            "queryEditor": "sql"
+        },
+        "header": [],
+        "url": {
+            "raw": "",
+            "protocol": "",
+            "query": [],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false,
+        "request_timeout": 0
+    },
+    "response": {
+        "success": "true",
+        "content": [
+            {
+                "AGENT_CODE": "string",
+                "AGENT_NAME": "string",
+                "WORKING_AREA": "string",
+                "COMMISSION": "string",
+                "PHONE_NO": "string",
+                "COUNTRY": "string"
+            }
+        ],
+        "ContentType": "application/json; charset=utf-8",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "is_deleted": 0
+}

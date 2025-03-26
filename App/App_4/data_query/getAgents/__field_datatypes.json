@@ -1,0 +1,38 @@
+[
+    {
+        "field": "AGENT_CODE",
+        "display_name": "AGENT_CODE",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "AGENT_NAME",
+        "display_name": "AGENT_NAME",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "WORKING_AREA",
+        "display_name": "WORKING_AREA",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "COMMISSION",
+        "display_name": "COMMISSION",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "PHONE_NO",
+        "display_name": "PHONE_NO",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "COUNTRY",
+        "display_name": "COUNTRY",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

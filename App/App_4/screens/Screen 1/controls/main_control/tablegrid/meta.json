@@ -61,14 +61,12 @@
     "ctrl_id": "",
     "cursorKey": "",
     "custom_column_widths": [
-        216,
-        143,
-        180,
-        238,
-        114,
-        99,
-        99,
-        83
+        182,
+        186,
+        211,
+        181,
+        203,
+        164
     ],
     "custom_column_widths_mapping": {},
     "custom_label_save_btn": "Save Changes",
@@ -128,7 +126,16 @@
         "data": {}
     },
     "dhq_nsf_replaced": false,
-    "dhq_olddt_map": {},
+    "dhq_olddt_map": {
+        "avatar": "avatar",
+        "fullname": "fullname",
+        "address": "address",
+        "email": "email",
+        "birthdate": "birthdate",
+        "phone": "phone",
+        "Created_At": "Created_At",
+        "unique_id": "unique_id"
+    },
     "dhq_req_stats": {
         "status": ""
     },
@@ -154,45 +161,35 @@
         "rowTheme": {}
     },
     "dummySchema": {
-        "avatar": {
-            "data_type": "list",
-            "display_name": "avatar",
-            "field_type": "checkbox"
-        },
-        "fullname": {
+        "AGENT_CODE": {
             "data_type": "string",
-            "display_name": "fullname",
+            "display_name": "AGENT_CODE",
             "field_type": "text"
         },
-        "address": {
+        "AGENT_NAME": {
             "data_type": "string",
-            "display_name": "address",
+            "display_name": "AGENT_NAME",
             "field_type": "text"
         },
-        "email": {
+        "WORKING_AREA": {
             "data_type": "string",
-            "display_name": "email",
+            "display_name": "WORKING_AREA",
             "field_type": "text"
         },
-        "birthdate": {
-            "data_type": "number",
-            "display_name": "birthdate",
-            "field_type": "number"
-        },
-        "phone": {
+        "COMMISSION": {
             "data_type": "string",
-            "display_name": "phone",
+            "display_name": "COMMISSION",
             "field_type": "text"
         },
-        "Created_At": {
-            "data_type": "number",
-            "display_name": "Created_At",
-            "field_type": "number"
+        "PHONE_NO": {
+            "data_type": "string",
+            "display_name": "PHONE_NO",
+            "field_type": "text"
         },
-        "unique_id": {
-            "data_type": "number",
-            "display_name": "unique_id",
-            "field_type": "number"
+        "COUNTRY": {
+            "data_type": "string",
+            "display_name": "COUNTRY",
+            "field_type": "text"
         }
     },
     "editable_cols": [],
@@ -211,51 +208,39 @@
     "field_database_editor_data_format": "single_select",
     "field_datatypes": [
         {
-            "field": "avatar",
-            "display_name": "avatar",
-            "data_type": "array",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "fullname",
-            "display_name": "fullname",
+            "field": "AGENT_CODE",
+            "display_name": "AGENT_CODE",
             "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "address",
-            "display_name": "address",
+            "field": "AGENT_NAME",
+            "display_name": "AGENT_NAME",
             "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "email",
-            "display_name": "email",
+            "field": "WORKING_AREA",
+            "display_name": "WORKING_AREA",
             "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "birthdate",
-            "display_name": "birthdate",
-            "data_type": "number",
+            "field": "COMMISSION",
+            "display_name": "COMMISSION",
+            "data_type": "object",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "phone",
-            "display_name": "phone",
+            "field": "PHONE_NO",
+            "display_name": "PHONE_NO",
+            "data_type": "object",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "COUNTRY",
+            "display_name": "COUNTRY",
             "data_type": "string",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "Created_At",
-            "display_name": "Created_At",
-            "data_type": "number",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "unique_id",
-            "display_name": "unique_id",
-            "data_type": "number",
             "field_database_editor_data_format": "single_line_text"
         }
     ],
@@ -484,7 +469,7 @@
         ]
     },
     "field_responsive": false,
-    "field_schema_column_header_names": "avatar,fullname,address,email,birthdate,phone,Created_At,unique_id",
+    "field_schema_column_header_names": "AGENT_CODE,AGENT_NAME,WORKING_AREA,COMMISSION,PHONE_NO,COUNTRY",
     "field_schema_column_id_header_name_mapping": {
         "avatar": "avatar",
         "fullname": "fullname",
@@ -493,7 +478,13 @@
         "birthdate": "birthdate",
         "phone": "phone",
         "Created_At": "Created_At",
-        "unique_id": "unique_id"
+        "unique_id": "unique_id",
+        "AGENT_CODE": "AGENT_CODE",
+        "AGENT_NAME": "AGENT_NAME",
+        "WORKING_AREA": "WORKING_AREA",
+        "COMMISSION": "COMMISSION",
+        "PHONE_NO": "PHONE_NO",
+        "COUNTRY": "COUNTRY"
     },
     "field_type": "list",
     "field_values_addition_enabled_in_database_editor": true,
@@ -704,16 +695,12 @@
     "selectedRowBg": "var(--DHQ-primary-light-color)",
     "selectedRows": [
         {
-            "avatar": [
-                "https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/facereestlaboriosam_TZldU.png"
-            ],
-            "fullname": "TomasaHermann",
-            "address": "751KossForest",
-            "email": "tomasa.hermann41@example.com",
-            "birthdate": 190857600000,
-            "phone": "9876543210",
-            "Created_At": 1639566046,
-            "unique_id": 1
+            "AGENT_CODE": "A001",
+            "AGENT_NAME": "Sureshh",
+            "WORKING_AREA": "Test",
+            "COMMISSION": "0.15",
+            "PHONE_NO": "8304567890",
+            "COUNTRY": "India"
         }
     ],
     "selectionType": "singleselect",
