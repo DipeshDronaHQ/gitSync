@@ -1,0 +1,128 @@
+{
+    "channel_id": 2,
+    "category_id": 100001,
+    "sub_category_id": 100003,
+    "response": {
+        "success": "true",
+        "content": [
+            {
+                "TypeofService": "string",
+                "VendorID": 1,
+                "GST": "string",
+                "VendorName": "string",
+                "ContactPerson": "string",
+                "ContactEmail": "string",
+                "Mobile": "string",
+                "Address": "string",
+                "City": "string",
+                "ZipCode": "string",
+                "State": "string",
+                "Country": "string",
+                "PANCard": "string"
+            }
+        ],
+        "ContentType": "application/json; charset=utf-8",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "failure": {
+        "success": true,
+        "content": {
+            "error": {
+                "code": "",
+                "errno": 0,
+                "sqlState": "",
+                "sqlMessage": "",
+                "sql": ""
+            }
+        },
+        "Header": [
+            {
+                "Name": "Connection",
+                "Value": "keep-alive",
+                "Type": 3
+            },
+            {
+                "Name": "Vary",
+                "Value": "Accept-Encoding",
+                "Type": 3
+            },
+            {
+                "Name": "Strict-Transport-Security",
+                "Value": "max-age=31536000; includeSubDomains",
+                "Type": 3
+            },
+            {
+                "Name": "Content-Length",
+                "Value": "304",
+                "Type": 3
+            },
+            {
+                "Name": "Content-Type",
+                "Value": "application/json; charset=utf-8",
+                "Type": 3
+            },
+            {
+                "Name": "Date",
+                "Value": "Mon, 26 Feb 2024 18:03:55 GMT",
+                "Type": 3
+            },
+            {
+                "Name": "ETag",
+                "Value": "W/\"130-VZv/T77k86tL58cDvDK4upYQLog\"",
+                "Type": 3
+            }
+        ],
+        "StatusCode": 500,
+        "StatusDescription": "Internal Server Error"
+    },
+    "failureCondition": [],
+    "request": {
+        "method": "DB_QUERY",
+        "body": {
+            "raw": "select * from vendor where TypeofService = \"{{type_of_service}}\"",
+            "variables": [
+                {
+                    "keyName": "type_of_service",
+                    "keyID": "dhq_dropdown_c55RTbVk8hZcyLFsNYD0",
+                    "keyValue": "Stafing",
+                    "keyType": "string",
+                    "keyIsDynamic": true
+                }
+            ],
+            "mode": "db_query"
+        },
+        "header": [],
+        "url": {
+            "raw": "",
+            "protocol": "",
+            "query": [],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false
+    },
+    "name": "variable_RpA2OWMdx2dEW2N3v",
+    "proxy": false,
+    "bindable": true,
+    "preselectfields": [
+        {
+            "field_key": "body.type_of_service",
+            "field_name": "type_of_service",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        }
+    ],
+    "preselectvariables": [],
+    "plugin_id": 56542,
+    "instructions": null,
+    "includeBodyHash": false,
+    "cat_format_id": "",
+    "format_id": "81a295bd-d4d1-11ee-aa73-0affc745b639",
+    "is_deleted": 0
+}

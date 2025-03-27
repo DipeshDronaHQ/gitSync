@@ -1,0 +1,347 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "string",
+    "allow_addition": false,
+    "allow_options_addition_in_editor": true,
+    "border_background_color": "var(--DHQ-border-color)",
+    "caching": false,
+    "cid": "c13836Rh2G2F3QovI4gk3Dh",
+    "class_name": "test",
+    "clearoption": true,
+    "ctrl_id": "",
+    "data_submission_enabled": true,
+    "data_type": "string",
+    "default": "",
+    "default_column": "2",
+    "default_display_column": 1,
+    "default_field_options_structure": {
+        "name": "Option n",
+        "selected": false
+    },
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "ui_input_config",
+            "enable_ui_input",
+            "for_localization",
+            "dhq_config"
+        ],
+        "update_to_theme_varaibles": [
+            "formbuilder_theme",
+            "tag_bg",
+            "border_background_color",
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color"
+        ],
+        "is_selectable_list": true
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {
+        "VendorName": "VendorName",
+        "VendorID": "VendorID",
+        "TypeofService": "TypeofService",
+        "GST": "GST",
+        "ContactPerson": "ContactPerson",
+        "ContactEmail": "ContactEmail",
+        "Mobile": "Mobile",
+        "Address": "Address",
+        "City": "City",
+        "ZipCode": "ZipCode",
+        "State": "State",
+        "Country": "Country",
+        "PANCard": "PANCard"
+    },
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 7,
+        "h": 8,
+        "x": 16,
+        "y": 13
+    },
+    "dhqGridDesktop": {
+        "w": 3,
+        "h": 8,
+        "x": 13,
+        "y": 14
+    },
+    "dhqMGridChanged": true,
+    "disabled": false,
+    "dropdown_format": "classic",
+    "dummySchema": {
+        "VendorName": {
+            "data_type": "string",
+            "display_name": "VendorName",
+            "field_type": "text"
+        },
+        "VendorID": {
+            "data_type": "number",
+            "display_name": "VendorID",
+            "field_type": "number"
+        },
+        "TypeofService": {
+            "data_type": "string",
+            "display_name": "TypeofService",
+            "field_type": "text"
+        },
+        "GST": {
+            "data_type": "string",
+            "display_name": "GST",
+            "field_type": "text"
+        },
+        "ContactPerson": {
+            "data_type": "string",
+            "display_name": "ContactPerson",
+            "field_type": "text"
+        },
+        "ContactEmail": {
+            "data_type": "string",
+            "display_name": "ContactEmail",
+            "field_type": "text"
+        },
+        "Mobile": {
+            "data_type": "string",
+            "display_name": "Mobile",
+            "field_type": "text"
+        },
+        "Address": {
+            "data_type": "string",
+            "display_name": "Address",
+            "field_type": "text"
+        },
+        "City": {
+            "data_type": "string",
+            "display_name": "City",
+            "field_type": "text"
+        },
+        "ZipCode": {
+            "data_type": "string",
+            "display_name": "ZipCode",
+            "field_type": "text"
+        },
+        "State": {
+            "data_type": "string",
+            "display_name": "State",
+            "field_type": "text"
+        },
+        "Country": {
+            "data_type": "string",
+            "display_name": "Country",
+            "field_type": "text"
+        },
+        "PANCard": {
+            "data_type": "string",
+            "display_name": "PANCard",
+            "field_type": "text"
+        }
+    },
+    "enable_ui_input": true,
+    "field_available_in_database_editor": false,
+    "field_composition_type": "list",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_default_value_query": "",
+    "field_data_model_binding_default_value_query_with_id": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "DATABUILDER()",
+    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "single_select",
+    "field_datatypes": [
+        {
+            "field": "VendorName",
+            "display_name": "VendorName",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "VendorID",
+            "display_name": "VendorID",
+            "data_type": "number",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "TypeofService",
+            "display_name": "TypeofService",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "GST",
+            "display_name": "GST",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "ContactPerson",
+            "display_name": "ContactPerson",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "ContactEmail",
+            "display_name": "ContactEmail",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "Mobile",
+            "display_name": "Mobile",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "Address",
+            "display_name": "Address",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "City",
+            "display_name": "City",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "ZipCode",
+            "display_name": "ZipCode",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "State",
+            "display_name": "State",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "Country",
+            "display_name": "Country",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "PANCard",
+            "display_name": "PANCard",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        }
+    ],
+    "field_display_key_name": "selectvendor",
+    "field_editable_in_database_editor": true,
+    "field_fullview": false,
+    "field_key_name": "dhq_dropdown_c13836Rh2G2F3QovI4gk3Dh",
+    "field_options": {},
+    "field_responsive": true,
+    "field_schema_column_header_names": "VendorName,VendorID,TypeofService,GST,ContactPerson,ContactEmail,Mobile,Address,City,ZipCode,State,Country,PANCard",
+    "field_schema_column_id_header_name_mapping": {
+        "TypeofService": "TypeofService",
+        "VendorID": "VendorID",
+        "GST": "GST",
+        "VendorName": "VendorName",
+        "ContactPerson": "ContactPerson",
+        "ContactEmail": "ContactEmail",
+        "Mobile": "Mobile",
+        "Address": "Address",
+        "City": "City",
+        "ZipCode": "ZipCode",
+        "State": "State",
+        "Country": "Country",
+        "PANCard": "PANCard"
+    },
+    "field_type": "dhq_dropdown",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "field_options.options",
+    "for_localization": {
+        "static_msgs": [
+            "This field is mandatory"
+        ],
+        "dynamic_msgs_keys": [
+            "label",
+            "placeholder",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formbuilder_theme": "var(--DHQ-primary-color)",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "hidden": false,
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": true,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isCtrlOverflowVisible": true,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "Select Vendor",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": false,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "max_width": "400",
+    "max_width_unit": "px",
+    "parent_id": "grid_panel_c34Rn0RgYWY6tIiOOkBS",
+    "placeholder": "Click, Type to Select",
+    "required": false,
+    "sb_mode": {
+        "main": "UI"
+    },
+    "searchable": true,
+    "select_type": "singleselect",
+    "show_description": false,
+    "show_dfm": false,
+    "show_new_property": false,
+    "show_tooltip": false,
+    "showNumber": true,
+    "sid": "sc13836Rh2G2F3QovI4gk3Dh",
+    "sort_select": false,
+    "tabIndex": "",
+    "tag_bg": "var(--DHQ-primary-light-color)",
+    "tip_description": "",
+    "toggle_others": false,
+    "tooltip": "",
+    "type": "input",
+    "ui_input_config": {
+        "type": "LIST_BUILDER",
+        "label": "List Options",
+        "option": {
+            "default": "Option"
+        }
+    },
+    "unique_name_change": false,
+    "visibility": true,
+    "wrapper_content_alignment": "flex-start"
+}
