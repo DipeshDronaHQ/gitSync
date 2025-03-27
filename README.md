@@ -1,1 +1,1 @@
-## Testing the Git Sync Functionality
+## Showcasing the Git Sync Functionality
