@@ -1,0 +1,83 @@
+{
+    "api_id": 3,
+    "api_name": "variable_RpA2OWMdx2dEW2N3v",
+    "cat_id": "__REPLACE_CAT_ID_100001___",
+    "cat_name": "__REPLACE_CAT_NAME_100001___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_100003___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_100003___",
+    "cat_icon_url": "./Images/dblogos/mysql.png",
+    "method": "db_query",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "db_query",
+        "formdata": {},
+        "variables": {
+            "type_of_service": {
+                "keyName": "type_of_service",
+                "isField": true,
+                "keyType": "text",
+                "keyValue": "{{dhq_dropdown_c55RTbVk8hZcyLFsNYD0}}",
+                "testValue": "Stafing",
+                "preselect": false,
+                "name": "",
+                "label": "",
+                "isDynamic": false,
+                "editor_type": "JSEditor"
+            }
+        }
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "scheme_type": "db_connector",
+    "account_id": "account_74484962_1673252515366",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "rawResponse": [
+        {
+            "TypeofService": "Stafing",
+            "VendorID": 1490,
+            "GST": "MORGANB0001",
+            "VendorName": "Morgan Accessories",
+            "ContactPerson": "John",
+            "ContactEmail": "john@gmail.com",
+            "Mobile": "8976543210",
+            "Address": "123 Main street",
+            "City": "New York",
+            "ZipCode": "10001",
+            "State": "New York",
+            "Country": "USA",
+            "PANCard": "CLMPB2901A"
+        }
+    ],
+    "processedResp": [
+        {
+            "TypeofService": "Stafing",
+            "VendorID": 1490,
+            "GST": "MORGANB0001",
+            "VendorName": "Morgan Accessories",
+            "ContactPerson": "John",
+            "ContactEmail": "john@gmail.com",
+            "Mobile": "8976543210",
+            "Address": "123 Main street",
+            "City": "New York",
+            "ZipCode": "10001",
+            "State": "New York",
+            "Country": "USA",
+            "PANCard": "CLMPB2901A"
+        }
+    ],
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "createdVia": "variable",
+    "cat_type": "mysql"
+}

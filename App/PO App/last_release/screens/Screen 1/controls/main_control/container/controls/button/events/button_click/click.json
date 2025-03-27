@@ -1,0 +1,171 @@
+{
+    "event_name": "button_click",
+    "selector": ".control-button",
+    "event_type": "click",
+    "actionflow_id": "af_Button1_c115RNHPGc2w6FqN7Oj2f_button_click_click",
+    "next_actions": [
+        "R0OaLvY2FClagvvje"
+    ],
+    "prev_actions": [],
+    "actions": [
+        {
+            "id": "R0OaLvY2FClagvvje",
+            "execution_editor_type": "JSEditor",
+            "execution_condition_variable_with_name": "",
+            "execution_condition_variable": "",
+            "execution_environments": [
+                "dev",
+                "beta",
+                "prod"
+            ],
+            "unique_name": "developer_labs_sagar_getVendors",
+            "label": "",
+            "wait_till_completion": true,
+            "offline_submission": false,
+            "downloadas_file": false,
+            "fields": {},
+            "type": "CALLSERVICE",
+            "outputs": [],
+            "dual_output_action": true,
+            "actions_on_positive": [],
+            "actions_on_negative": [
+                {
+                    "id": "RscNNHsND1ImGsQU5",
+                    "execution_editor_type": "JSEditor",
+                    "execution_condition_variable_with_name": "",
+                    "execution_condition_variable": "",
+                    "execution_environments": [
+                        "dev",
+                        "beta",
+                        "prod"
+                    ],
+                    "unique_name": "TOAST",
+                    "label": "",
+                    "wait_till_completion": true,
+                    "offline_submission": false,
+                    "downloadas_file": false,
+                    "fields": {
+                        "type": {
+                            "key": "type",
+                            "value": "error",
+                            "name": "error",
+                            "label": "Type\n   Type",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "title": {
+                            "key": "title",
+                            "value": "Oops!",
+                            "name": "Oops!",
+                            "label": "Title\n    Title",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "JSEditor",
+                            "evaluateValue": true
+                        },
+                        "message": {
+                            "key": "message",
+                            "value": "Something went wrong",
+                            "name": "Something went wrong",
+                            "label": "Message\n    Message",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "JSEditor",
+                            "evaluateValue": true
+                        },
+                        "position": {
+                            "key": "position",
+                            "value": "toast-bottom-full-width",
+                            "name": "Bottom Full Width",
+                            "label": "Position On Screen\n   Position On Screen",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "closeButton": {
+                            "key": "closeButton",
+                            "value": false,
+                            "name": "",
+                            "label": "Show Close Button",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "boolean",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "timeout": {
+                            "key": "timeout",
+                            "value": "5000",
+                            "name": "",
+                            "label": "Close After (in milliseconds)\n    Close After (in milliseconds)",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "number",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        }
+                    },
+                    "type": "TOAST",
+                    "outputs": [],
+                    "dual_output_action": false,
+                    "next_actions": [],
+                    "prev_actions": [
+                        "R0OaLvY2FClagvvje"
+                    ]
+                }
+            ],
+            "cat_id": "__REPLACE_CAT_ID_100001___",
+            "sub_cat_id": "__REPLACE_SUB_CAT_ID_100004___",
+            "account_id": "",
+            "whitelist_ip": false,
+            "environment_config": {
+                "env_1": "account_74484962_1673252515366",
+                "env_2": "",
+                "env_3": "",
+                "env_39": ""
+            },
+            "rawResponse": {
+                "result": {
+                    "rows": [
+                        {
+                            "TypeofService": "Stafing",
+                            "VendorID": 1490,
+                            "GST": "MORGANB0001",
+                            "VendorName": "Morgan Accessories",
+                            "ContactPerson": "John",
+                            "ContactEmail": "john@gmail.com",
+                            "Mobile": "8976543210",
+                            "Address": "123 Main street",
+                            "City": "New York",
+                            "ZipCode": "10001",
+                            "State": "New York",
+                            "Country": "USA",
+                            "PANCard": "CLMPB2901A"
+                        }
+                    ]
+                }
+            },
+            "next_actions": [],
+            "prev_actions": []
+        }
+    ]
+}

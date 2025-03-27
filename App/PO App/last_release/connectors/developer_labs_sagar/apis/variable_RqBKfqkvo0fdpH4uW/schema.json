@@ -1,0 +1,98 @@
+{
+    "channel_id": 2,
+    "category_id": 100001,
+    "sub_category_id": 100001,
+    "response": {
+        "success": "true",
+        "content": [
+            {
+                "name": "string"
+            }
+        ],
+        "ContentType": "application/json; charset=utf-8",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "failure": {
+        "success": true,
+        "content": {
+            "error": {
+                "code": "",
+                "errno": 0,
+                "sqlState": "",
+                "sqlMessage": "",
+                "sql": ""
+            }
+        },
+        "Header": [
+            {
+                "Name": "Connection",
+                "Value": "keep-alive",
+                "Type": 3
+            },
+            {
+                "Name": "Vary",
+                "Value": "Accept-Encoding",
+                "Type": 3
+            },
+            {
+                "Name": "Strict-Transport-Security",
+                "Value": "max-age=31536000; includeSubDomains",
+                "Type": 3
+            },
+            {
+                "Name": "Content-Length",
+                "Value": "299",
+                "Type": 3
+            },
+            {
+                "Name": "Content-Type",
+                "Value": "application/json; charset=utf-8",
+                "Type": 3
+            },
+            {
+                "Name": "Date",
+                "Value": "Mon, 26 Feb 2024 17:51:10 GMT",
+                "Type": 3
+            },
+            {
+                "Name": "ETag",
+                "Value": "W/\"12b-3qQinb+dOyl9mBzUmbWoUORM6vM\"",
+                "Type": 3
+            }
+        ],
+        "StatusCode": 500,
+        "StatusDescription": "Internal Server Error"
+    },
+    "failureCondition": [],
+    "request": {
+        "method": "DB_QUERY",
+        "body": {
+            "raw": "select name from countries",
+            "variables": [],
+            "mode": "db_query"
+        },
+        "header": [],
+        "url": {
+            "raw": "",
+            "protocol": "",
+            "query": [],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false
+    },
+    "name": "variable_RqBKfqkvo0fdpH4uW",
+    "proxy": false,
+    "bindable": true,
+    "preselectfields": [],
+    "preselectvariables": [],
+    "plugin_id": 56542,
+    "instructions": null,
+    "includeBodyHash": false,
+    "cat_format_id": "",
+    "format_id": "ae80945a-d4cf-11ee-aa73-0affc745b639",
+    "is_deleted": 0
+}

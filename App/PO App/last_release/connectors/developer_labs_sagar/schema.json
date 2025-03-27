@@ -1,0 +1,11 @@
+{
+    "cat_id": 100001,
+    "channel_id": 2,
+    "cat_auth_scheme": "db_connector",
+    "cat_desc": "",
+    "cat_icon": "./Images/dblogos/mysql.png",
+    "cat_name": "developer_labs_sagar",
+    "cat_type": "mysql",
+    "db_type": "mysql",
+    "is_deleted": 0
+}

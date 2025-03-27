@@ -1,0 +1,83 @@
+{
+    "channel_id": 2,
+    "category_id": 100001,
+    "sub_category_id": 100004,
+    "response": {
+        "success": "true",
+        "content": {
+            "result": {
+                "rows": [
+                    {
+                        "TypeofService": "string",
+                        "VendorID": 1,
+                        "GST": "string",
+                        "VendorName": "string",
+                        "ContactPerson": "string",
+                        "ContactEmail": "string",
+                        "Mobile": "string",
+                        "Address": "string",
+                        "City": "string",
+                        "ZipCode": "string",
+                        "State": "string",
+                        "Country": "string",
+                        "PANCard": "string"
+                    }
+                ]
+            }
+        },
+        "ContentType": "application/json; charset=utf-8",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "failure": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "success": false
+    },
+    "failureCondition": [],
+    "request": {
+        "method": "DB_QUERY",
+        "body": {
+            "raw": "select * from vendor;",
+            "variables": [],
+            "mode": "db_query"
+        },
+        "header": [],
+        "url": {
+            "raw": "",
+            "protocol": "",
+            "query": [],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false
+    },
+    "name": "getVendors",
+    "proxy": false,
+    "bindable": true,
+    "preselectfields": [],
+    "preselectvariables": [],
+    "plugin_id": 56542,
+    "instructions": null,
+    "includeBodyHash": false,
+    "cat_format_id": "",
+    "format_id": "e65f0bfd-d4d2-11ee-aa73-0affc745b639",
+    "is_deleted": 0,
+    "apiUsedInfo": {
+        "Screen 1": [
+            {
+                "page_name": "Screen 1",
+                "page_no": 1,
+                "control_id": "Button1_c115RNHPGc2w6FqN7Oj2f",
+                "control_name": "button",
+                "catID": 100001,
+                "subCatID": 100004,
+                "type": "Actionflow"
+            }
+        ]
+    }
+}

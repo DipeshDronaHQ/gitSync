@@ -1,0 +1,5 @@
+[
+    "Stafing",
+    "Hardware",
+    "Admin Stationary"
+]

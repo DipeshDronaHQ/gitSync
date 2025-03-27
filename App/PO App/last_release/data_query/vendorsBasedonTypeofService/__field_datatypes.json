@@ -1,0 +1,80 @@
+[
+    {
+        "field": "TypeofService",
+        "display_name": "TypeofService",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "VendorID",
+        "display_name": "VendorID",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "GST",
+        "display_name": "GST",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "VendorName",
+        "display_name": "VendorName",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "ContactPerson",
+        "display_name": "ContactPerson",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "ContactEmail",
+        "display_name": "ContactEmail",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "Mobile",
+        "display_name": "Mobile",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "Address",
+        "display_name": "Address",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "City",
+        "display_name": "City",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "ZipCode",
+        "display_name": "ZipCode",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "State",
+        "display_name": "State",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "Country",
+        "display_name": "Country",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "PANCard",
+        "display_name": "PANCard",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]
