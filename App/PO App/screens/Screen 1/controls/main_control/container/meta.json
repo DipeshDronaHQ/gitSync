@@ -3,7 +3,7 @@
     "__dhq_formula_Dtype": "string",
     "add_scroll": false,
     "allow_options_addition_in_editor": true,
-    "bg_color": "var(--DHQ-primary-bg-color)",
+    "bg_color": "var(--DHQ-colorpalet-four)",
     "border": {
         "type": "all",
         "all": {
