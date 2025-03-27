@@ -1,0 +1,46 @@
+{
+    "api_id": 1,
+    "api_name": "variable_RqBKfqkvo0fdpH4uW",
+    "cat_id": "__REPLACE_CAT_ID_100001___",
+    "cat_name": "__REPLACE_CAT_NAME_100001___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_100001___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_100001___",
+    "cat_icon_url": "./Images/dblogos/mysql.png",
+    "method": "db_query",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "db_query",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "scheme_type": "db_connector",
+    "account_id": "account_74484962_1673252515366",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "rawResponse": [
+        {
+            "name": "Russian Federation"
+        }
+    ],
+    "processedResp": [
+        {
+            "name": "Russian Federation"
+        }
+    ],
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "createdVia": "variable",
+    "cat_type": "mysql"
+}

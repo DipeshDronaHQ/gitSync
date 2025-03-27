@@ -1,0 +1,21 @@
+{
+    "cat_id": 100001,
+    "catName": "developer_labs_sagar",
+    "catDesc": "",
+    "catIcon": "./Images/dblogos/mysql.png",
+    "schemeType": "db_connector",
+    "cat_created_on": null,
+    "cat_modify_on": null,
+    "cat_created_by": "",
+    "isGlobal": false,
+    "isEditable": true,
+    "isCatPublic": false,
+    "isInstalled": false,
+    "isCatEditable": true,
+    "showAddOption": true,
+    "cat_type": "mysql",
+    "format_id": "f2ed050c-e87e-11ef-9aed-0242ac120003",
+    "permission": "0010",
+    "multistep_auth_steps": {},
+    "channel_id": "2"
+}

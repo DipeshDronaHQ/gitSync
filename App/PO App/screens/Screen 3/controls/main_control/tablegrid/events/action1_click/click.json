@@ -1,0 +1,86 @@
+{
+    "event_name": "action1_click",
+    "selector": "[eventname = 'action1_click']",
+    "event_type": "click",
+    "actionflow_id": "af_list_c18913RqssLQvkDZx0243Vr_action1_click_click",
+    "next_actions": [
+        "RL4ugEkGvkP2I8VG6"
+    ],
+    "prev_actions": [],
+    "actions": [
+        {
+            "id": "RL4ugEkGvkP2I8VG6",
+            "execution_editor_type": "JSEditor",
+            "execution_condition_variable_with_name": "",
+            "execution_condition_variable": "",
+            "execution_environments": [
+                "dev",
+                "beta",
+                "prod"
+            ],
+            "unique_name": "NAVIGATE",
+            "label": "",
+            "wait_till_completion": true,
+            "offline_submission": false,
+            "downloadas_file": false,
+            "fields": {
+                "navigateTo": {
+                    "key": "navigateTo",
+                    "value": "screen-4",
+                    "name": "screen-4",
+                    "label": "Navigate To",
+                    "isField": false,
+                    "isPreselect": true,
+                    "fieldValueType": "service",
+                    "isDynamic": false,
+                    "isFile": false,
+                    "editor_type": "JSEditor"
+                },
+                "transition": {
+                    "key": "transition",
+                    "value": "1",
+                    "name": "Slide To Right",
+                    "label": "Transition\n   Transition",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "string",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                },
+                "resetTargetPage": {
+                    "key": "resetTargetPage",
+                    "value": "false",
+                    "name": "FALSE",
+                    "label": "Reset Target Screen\n   Reset Target Screen",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "boolean",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                },
+                "withValidation": {
+                    "key": "withValidation",
+                    "value": "false",
+                    "name": "FALSE",
+                    "label": "Validate Current Screen\n   Validate Current Screen",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "boolean",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                }
+            },
+            "type": "NAVIGATE",
+            "outputs": [],
+            "dual_output_action": false,
+            "next_actions": [],
+            "prev_actions": []
+        }
+    ]
+}

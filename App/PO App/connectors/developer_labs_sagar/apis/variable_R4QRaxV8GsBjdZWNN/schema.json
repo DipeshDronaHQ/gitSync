@@ -1,0 +1,58 @@
+{
+    "channel_id": 2,
+    "category_id": 100001,
+    "sub_category_id": 100005,
+    "response": {
+        "success": "true",
+        "content": [
+            {
+                "id": "string",
+                "initiator_id": 1,
+                "initiator_email": "string",
+                "total_amount": 1,
+                "created_at": "string"
+            }
+        ],
+        "ContentType": "application/json; charset=utf-8",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "failure": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "success": false
+    },
+    "failureCondition": [],
+    "request": {
+        "method": "DB_QUERY",
+        "body": {
+            "raw": "select * from purchase_orders;",
+            "variables": [],
+            "mode": "db_query"
+        },
+        "header": [],
+        "url": {
+            "raw": "",
+            "protocol": "",
+            "query": [],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false
+    },
+    "name": "variable_R4QRaxV8GsBjdZWNN",
+    "proxy": false,
+    "bindable": true,
+    "preselectfields": [],
+    "preselectvariables": [],
+    "plugin_id": 56542,
+    "instructions": null,
+    "includeBodyHash": false,
+    "cat_format_id": "",
+    "format_id": "309bdd11-d4d3-11ee-aa73-0affc745b639",
+    "is_deleted": 0
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "field": "id",
+        "display_name": "id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "initiator_id",
+        "display_name": "initiator_id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "initiator_email",
+        "display_name": "initiator_email",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "total_amount",
+        "display_name": "total_amount",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "created_at",
+        "display_name": "created_at",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]
