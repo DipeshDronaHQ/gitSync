@@ -1,0 +1,14 @@
+{
+    "on_apply": {
+        "events": [
+            "click"
+        ],
+        "selector": ""
+    },
+    "on_clear": {
+        "events": [
+            "click"
+        ],
+        "selector": ""
+    }
+}

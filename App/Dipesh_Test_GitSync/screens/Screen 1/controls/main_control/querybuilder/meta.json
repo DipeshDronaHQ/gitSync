@@ -1,0 +1,221 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "add_orderby_toggle": false,
+    "allow_options_addition_in_editor": true,
+    "caching": false,
+    "cid": "c63ReCsTer7ROG787p5y",
+    "class_name": "test",
+    "ctrl_id": "",
+    "data_submission_enabled": true,
+    "data_type": "",
+    "database": "nosql",
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "for_localization",
+            "dhq_config",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "theme_color",
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {},
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 9,
+        "h": 40,
+        "x": 1,
+        "y": 9
+    },
+    "dhqGridChanged": false,
+    "dhqGridDesktop": {
+        "w": 9,
+        "h": 40,
+        "x": 1,
+        "y": 10
+    },
+    "disabled": false,
+    "dynamic_operator": [
+        {
+            "label": "$All",
+            "value": "$all"
+        },
+        {
+            "label": "$Size",
+            "value": "$size"
+        },
+        {
+            "label": "$Type",
+            "value": "$type",
+            "type": "string"
+        }
+    ],
+    "field_available_in_database_editor": false,
+    "field_composition_type": "composite",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "",
+    "field_data_model_binding_manual_query_with_id": "",
+    "field_data_model_binding_type": "",
+    "field_database_editor_data_format": "",
+    "field_datatypes": [
+        {
+            "field": "rawjson",
+            "display_name": "Raw_JSON",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "query",
+            "display_name": "Query",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "schema",
+            "display_name": "Schema",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        }
+    ],
+    "field_display_key_name": "querybuilder",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "dhq_query_builder_c63ReCsTer7ROG787p5y",
+    "field_options": {},
+    "field_responsive": false,
+    "field_type": "dhq_query_builder",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "",
+    "for_localization": {
+        "static_msgs": [
+            "Please check schema JSON",
+            "Schema cannot be empty",
+            "Invalid JSON format. Please provide valid JSON.",
+            "Ascending",
+            "Descending",
+            "Is Null",
+            "Is Not Null",
+            "In",
+            "Not In",
+            "Like",
+            "AND",
+            "OR",
+            "Rule",
+            "Group",
+            "Order By",
+            "Apply",
+            "Clear"
+        ],
+        "dynamic_msgs_keys": [
+            "label",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formbuilder_theme": "#bbbbbb",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "hidden": false,
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": false,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "Query Builder",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": false,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "parent_id": "",
+    "required": false,
+    "schema": [
+        {
+            "label": "Status",
+            "value": "status",
+            "enum": [
+                {
+                    "label": "Approved",
+                    "value": "approved"
+                },
+                {
+                    "label": "Rejected",
+                    "value": "rejected"
+                },
+                {
+                    "label": "Pending",
+                    "value": "pending"
+                }
+            ]
+        },
+        {
+            "label": "User Name",
+            "value": "username",
+            "type": "text"
+        },
+        {
+            "label": "Email",
+            "value": "email",
+            "type": "text"
+        },
+        {
+            "label": "Age",
+            "value": "age",
+            "type": "number"
+        },
+        {
+            "label": "User Last Name",
+            "value": "userlastname",
+            "type": "text"
+        }
+    ],
+    "show_description": false,
+    "show_dfm": false,
+    "show_new_property": true,
+    "show_tooltip": false,
+    "sid": "sc63ReCsTer7ROG787p5y",
+    "tabIndex": "",
+    "theme_color": "var(--DHQ-colorpalet-two)",
+    "tip_description": "",
+    "tooltip": "",
+    "type": "input",
+    "wrapper_content_alignment": "flex-start"
+}

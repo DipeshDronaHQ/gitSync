@@ -1,0 +1,24 @@
+{
+    "template_name": "Dipesh_Test_GitSync",
+    "description": "Description",
+    "group_id": [],
+    "plugin_id": "",
+    "action": "add",
+    "sample_images": [],
+    "channel_id": "2",
+    "is_active": true,
+    "embed": {
+        "action": ""
+    },
+    "is_show_case_app": 0,
+    "meta": "",
+    "icon_url": "http://localhost:8080/filerepository/files/DRONA5_Team2/content/app/icon/5e7oCNdp4Y.png",
+    "_engVer": "1.1.0",
+    "is_premium": false,
+    "app_data": {
+        "formBuilderJSON": {
+            "workflowIdAndNameMapping": {}
+        }
+    },
+    "is_new_template": true
+}
