@@ -205,6 +205,11 @@
             "label": "User Last Name",
             "value": "userlastname",
             "type": "text"
+        },
+        {
+            "label": "User First Name",
+            "value": "userfirstname",
+            "type": "text"
         }
     ],
     "show_description": false,
