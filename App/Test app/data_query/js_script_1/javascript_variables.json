@@ -1,0 +1,29 @@
+[
+    {
+        "alias": "nameFilter",
+        "name": "advanceddropdown",
+        "id": "dhq_advance_dropdown_c33RyZY1E3XPwHBMjFRE",
+        "testValue": "Maria",
+        "testValueType": {
+            "length": 0
+        }
+    },
+    {
+        "alias": "emailFilter",
+        "name": "advanceddropdown1",
+        "id": "dhq_advance_dropdown_c45RvjlgE8gM5dnkPx5A",
+        "testValue": "@example.com",
+        "testValueType": {
+            "length": 0
+        }
+    },
+    {
+        "alias": "phoneFilter",
+        "name": "advanceddropdown2",
+        "id": "dhq_advance_dropdown_c132R39elogq0vrmYOsBA",
+        "testValue": "+1",
+        "testValueType": {
+            "length": 0
+        }
+    }
+]

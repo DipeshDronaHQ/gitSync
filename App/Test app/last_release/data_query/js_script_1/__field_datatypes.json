@@ -1,0 +1,26 @@
+[
+    {
+        "field": "fullname",
+        "display_name": "fullname",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "email",
+        "display_name": "email",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "mobile",
+        "display_name": "mobile",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "_isSelected",
+        "display_name": "_isSelected",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]
